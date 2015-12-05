@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CSU-NET</string>
+    <string name="username">数字中南账号</string>
+    <string name="password">数字中南密码</string>
+    <string name="login">登录</string>
+    <string name="remember_password">记住密码</string>
+    <string name="data">剩余流量：</string>
+    <string name="money">剩余金额：</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_logged">Logged</string>
+</resources>

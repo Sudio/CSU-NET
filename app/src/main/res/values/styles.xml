@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="alertDialogProTheme">@style/Theme.AlertDialogPro.Material.Light</item>
+
+    </style>
+
+    <style name="MaterialNavigationDrawerTheme.Light.DarkActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+
+</resources>
