@@ -1,25 +1,12 @@
-package task;
+package com.example.flim.csu_net.task;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
-import android.preference.PreferenceActivity;
-import android.util.Log;
-import android.widget.Toast;
 
-import com.example.flim.csu_net.MainActivity;
+import com.example.flim.csu_net.activity.MainActivity;
 import com.example.flim.csu_net.R;
 import com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar;
-
-import org.asynchttpclient.AsyncHandler;
-import org.asynchttpclient.AsyncHttpClient;
-import org.asynchttpclient.AsyncHttpClientConfig;
-import org.asynchttpclient.AsyncHttpProvider;
-import org.asynchttpclient.BoundRequestBuilder;
-import org.asynchttpclient.ListenableFuture;
-import org.asynchttpclient.Request;
-import org.asynchttpclient.Response;
-import org.asynchttpclient.SignatureCalculator;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.example.flim.csu_net;
+package com.example.flim.csu_net.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.flim.csu_net.R;
 
 public class Logged extends Activity {
     private Button logout;

@@ -1,8 +1,8 @@
-package util;/*
-* 根据firebug调试结果与js参考写出,部分代码与js一致
-* 顺便吐槽下,卧槽,这js写的太难懂了
-* 感谢
-* */
+package com.example.flim.csu_net.util;
+
+/**
+ * Created by Flim on 2015/12/7.
+ */
 
 
 public class RSAUtil {

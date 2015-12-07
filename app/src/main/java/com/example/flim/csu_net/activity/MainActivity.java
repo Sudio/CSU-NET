@@ -1,30 +1,20 @@
-package com.example.flim.csu_net;
+package com.example.flim.csu_net.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.toolbox.StringRequest;
-import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.AsyncHttpResponseHandler;
-import com.rengwuxian.materialedittext.MaterialEditText;
+import com.example.flim.csu_net.R;
+import com.example.flim.csu_net.util.RSAUtil;
 
-
-
-import util.RSAUtil;
 
 public class MainActivity extends Activity {
     private final static String KNOCK = "http://www.baidu.com";
