@@ -14,6 +14,7 @@ import android.widget.EditText;
 
 import com.example.flim.csu_net.R;
 import com.example.flim.csu_net.util.RSAUtil;
+import com.tencent.bugly.crashreport.CrashReport;
 
 
 public class MainActivity extends Activity {
@@ -34,7 +35,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 //        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
-
         usernameEdit = (EditText)findViewById(R.id.username);
         passwordEdit = (EditText)findViewById(R.id.password);
         remem_password = (CheckBox)findViewById(R.id.is_remember);
@@ -61,8 +61,10 @@ public class MainActivity extends Activity {
                 String password = passwordEdit.getText().toString();
                 String accountID = account+"@zndx.inter";
                 String passwordEntity = new RSAUtil().getEncrypt(password);
-                Log.i("information",passwordEntity);
+//                CrashReport.testJavaCrash();
+                Log.i("information", passwordEntity);
                 Intent intent = new Intent(MainActivity.this,Logged.class);
+
                 startActivity(intent);
 
             }
