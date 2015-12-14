@@ -30,6 +30,7 @@ dependencies {
     compile 'com.lsjwzh:materialloadingprogressbar:0.5.6-RELEASE'
     compile 'it.neokree:MaterialTabs:0.11'
     compile 'org.jsoup:jsoup:1.8.3'
+    compile 'com.loopj.android:android-async-http:1.4.9'
     compile project(':library')
-    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+
 }

@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 
     private EditText passwordEdit;
 
-    private CheckBox remem_password;
+    private CheckBox cb_rem_password;
 
     private Button login;
 
@@ -35,21 +35,22 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 //        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
+//        CrashReport.testJavaCrash();
         usernameEdit = (EditText)findViewById(R.id.username);
         passwordEdit = (EditText)findViewById(R.id.password);
-        remem_password = (CheckBox)findViewById(R.id.is_remember);
+        cb_rem_password = (CheckBox)findViewById(R.id.is_remember);
         login = (Button)findViewById(R.id.login);
         //获取储存的账号密码
         final SharedPreferences sharedPreferences  = getSharedPreferences("data",MODE_PRIVATE);
         usernameEdit.setText(sharedPreferences.getString("account", null));
         passwordEdit.setText(sharedPreferences.getString("password",null));
-        remem_password.setChecked(sharedPreferences.getBoolean("is_remember",false));
+        cb_rem_password.setChecked(sharedPreferences.getBoolean("is_remember",false));
         //设置监听点击事件
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //保存账户密码
-                if(remem_password.isChecked()){
+                if(cb_rem_password.isChecked()){
                     SharedPreferences.Editor editor = getSharedPreferences("data",MODE_PRIVATE).edit();
                     editor.putString("account",usernameEdit.getText().toString());
                     editor.putString("password",passwordEdit.getText().toString());

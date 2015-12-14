@@ -105,10 +105,10 @@
     <orderEntry type="library" exported="" name="alertdialogpro-core-0.2.4" level="project" />
     <orderEntry type="library" exported="" name="materialloadingprogressbar-0.5.6-RELEASE" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-21.0.3" level="project" />
-    <orderEntry type="library" exported="" name="android-async-http-1.4.3" level="project" />
     <orderEntry type="library" exported="" name="android-ui-1.2" level="project" />
+    <orderEntry type="library" exported="" name="httpclient-4.3.6" level="project" />
     <orderEntry type="library" exported="" name="support-v4-23.0.0" level="project" />
-    <orderEntry type="library" exported="" name="com.android.volley-2015.05.28" level="project" />
+    <orderEntry type="library" exported="" name="android-async-http-1.4.9" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.0.0" level="project" />
     <orderEntry type="library" exported="" name="MaterialTabs-0.11" level="project" />
     <orderEntry type="module" module-name="library" exported="" />

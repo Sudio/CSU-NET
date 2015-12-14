@@ -29,14 +29,16 @@ public class LoginTask extends AsyncTask<String, Integer, Void>{
     private boolean remember;
     private SharedPreferences preferences;
 
-    private CircleProgressBar progressBar;
 
     public LoginTask(Context context,boolean remember){
         this.context = context;
-        progressBar = (CircleProgressBar)((MainActivity)context).findViewById(R.id.loginProgress);
         this.remember = remember;
     }
 
+
+    public boolean getAddress(){
+        return false;
+    }
     @Override
     protected Void doInBackground(String... params) {
         return null;
